@@ -1,0 +1,16 @@
+body {
+    padding-top: 70px;
+}
+
+a:hover {text-decoration-line: none;}
+
+
+.navbar-inverse .navbar-brand {color: #ffffff;}
+.navbar-inverse .navbar-brand:hover {color: #0176de;}
+
+.navbar-right a{color: #ffffff;}
+.navbar-right a:hover{color: #0176de;}
+
+.input-group.input-group-sm {
+    margin-bottom: 10px;
+}
