@@ -16,9 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path
 from posts import views
-from posts.views import Index, Profile
+from posts.views import Index, Profile, PostPost, Search
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', Index.as_view(), name='home'),
     re_path(r'^user/(\w+)/$', Profile.as_view()),
+    re_path(r'^user/(\w+)/post/$', PostPost.as_view()),
+    re_path(r'^search/$', Search.as_view()),
 ]
