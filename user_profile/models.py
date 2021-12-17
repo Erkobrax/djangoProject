@@ -5,7 +5,7 @@ from django.contrib.auth.models import AbstractBaseUser
 # Create your models here.
 
 class User(AbstractBaseUser):
-    login = models.CharField('username', max_length=25, unique=True, db_index=True)
+    username = models.CharField('username', max_length=25, unique=True, db_index=True)
     password = models.CharField('password', max_length=25)
     firstname = models.CharField('firstname', max_length=30)
     lastname = models.CharField('lastname', max_length=30)
@@ -16,7 +16,7 @@ class User(AbstractBaseUser):
     is_admin = models.BooleanField(default=False)
     country = models.CharField(max_length=30, default='Global')
 
-    USERNAME_FIELD = 'login'
+    USERNAME_FIELD = 'username'
 
-    def __init__(self):
-        return self.login
+    def __str__(self):
+        return self.username

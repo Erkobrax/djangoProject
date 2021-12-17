@@ -10,7 +10,7 @@ class Post(models.Model):
     is_active = models.BooleanField(default=True)
     is_favourite = models.BooleanField(default=False)
 
-    def __init__(self):
+    def __str__(self):
         return self.text
 
 
@@ -18,5 +18,5 @@ class HashTag(models.Model):
     name = models.CharField(max_length=100, unique=True)
     post = models.ManyToManyField(Post)
 
-    def __init__(self):
+    def __str__(self):
         return self.name
