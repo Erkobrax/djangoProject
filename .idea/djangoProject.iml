@@ -19,14 +19,17 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="respond" level="application" />
-    <orderEntry type="library" name="html5shiv" level="application" />
+    <orderEntry type="library" name="Django Lib" level="project" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
     <option name="TEMPLATE_FOLDERS">
       <list>
-        <option value="$MODULE_DIR$/../djangoProject\templates" />
+        <option value="$MODULE_DIR$/posts/templates" />
       </list>
     </option>
   </component>
