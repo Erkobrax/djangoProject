@@ -1,36 +1,76 @@
 {% extends 'base.html' %}
 
+{% block navbar %}
+    <p class="navbar-text navbar-left">
+        <i class="glyphicon glyphicon-user"></i> profile.username {{ profile.username }}
+    </p>
+
+    <p class="navbar-text navbar-right">
+        <a href="/user/{{ user.username }}"><i class="glyphicon glyphicon-user"></i>{{ user.username }}</a>
+    </p>
+{% endblock %}
+
 {% block content %}
+
 <div class="row clearfix">
+
     <div class="col-md-12 column">
-        <form action="post">
+
+        <form action="post/" method="post">
             {% csrf_token %}
-            <div class="col-md-8 col-md-offset-2 fieldWrapper">
+            <div class="col-md-8 col-md-offset-2 fieldWrapper form-group">
                 {{ form.text.errors }}
                 {{ form.text }}
             </div>
-            <input type="submit" value="Post">
+            <button type="submit" class="btn btn-primary"><i class=""></i>Post</button>
         </form>
+
     </div>
-    <div class="col-md-12 column =">
+
+    <div class="col-md-12 column">
+
         {% for post in posts %}
-            <div class="card-body bg-light">
+
+            <div class="card-body">
                 {{ post.text }}
-            <p></p>
-            <p>
-                <i class="icon-user"></i><a href="/user/{{ user.username }}">{{ user }}</a>
-                | {{ post.created_date | date:"d/m/Y"}}
-                | <a href="#"><i class="glyphicon glyphicon-comment"></i> Comments</a>
-                | <a href="#"><i class="glyphicon glyphicon-share-alt"></i> Shares</a>
+                <p></p>
+                <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                 <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                </svg>
+                  <i class="bi bi-person" style="font-size: 2rem;"></i><a href="/user/{{ user.username }}">{{ user }}</a>
+                  |<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+</svg>
+                    {{ post.created_date | date:"d/m/Y"}}
+                  | <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-square-text" viewBox="0 0 16 16">
+  <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+  <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+</svg>
+                    <a href="#"><span class="glyphicon glyphicon-comment"></span> Comments</a>
+                  |<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-file-plus" viewBox="0 0 16 16">
+  <path d="M8.5 6a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V10a.5.5 0 0 0 1 0V8.5H10a.5.5 0 0 0 0-1H8.5V6z"/>
+  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+</svg>
+                    <a href="#"><span class="glyphicon glyphicon-share-alt"></span> Shares</a>
+                | <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-gem" viewBox="0 0 16 16">
+  <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495 8 13.366l2.532-7.876-5.062.005zm-1.371-.999-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l5.113 6.817-2.192-6.82L1.5 5.5zm7.889 6.817 5.123-6.83-2.928.002-2.195 6.828z"/>
+</svg>
+                    <a href="#"><span></span>Likes</a>
                     {% if post.hashtag_set.all|length > 0 %}
-                | <i class="icon-tags"> </i> Tags:
-                {% for hashtag in post.hashtag_set.all %}
+                  | <i class="icon-tags"></i> Tags:
+                    {% for hashtag in post.hashtag_set.all %}
                     <a href="#"><span class="label label-info">{{ hashtag }}</span></a>
                     {% endfor %}
                     {% endif %}
-            </p>
+                </p>
             </div>
+
         {% endfor %}
+
     </div>
+
 </div>
+
 {% endblock %}
