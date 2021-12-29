@@ -20,3 +20,11 @@ class HashTag(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Comments(models.Model):
+    name = models.CharField(max_length=300)
+    post = models.ManyToManyField(Post)
+
+    def __str__(self):
+        return self.name
