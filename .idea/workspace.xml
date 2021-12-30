@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09212a64-7445-4e14-93f3-8e06fe858051" name="Changes" comment="add model of comments">
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="09212a64-7445-4e14-93f3-8e06fe858051" name="Changes" comment="fixed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,11 +29,15 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="22slOUFQc0Tg9hRVGCLZyHXdsAK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -83,7 +85,7 @@
       <updated>1640634143661</updated>
       <workItem from="1640634145844" duration="1576000" />
       <workItem from="1640704494044" duration="1574000" />
-      <workItem from="1640811431611" duration="13418000" />
+      <workItem from="1640811431611" duration="13961000" />
     </task>
     <task id="LOCAL-00001" summary="make menu and worked linkers">
       <created>1640814493785</created>
@@ -155,7 +157,49 @@
       <option name="project" value="LOCAL" />
       <updated>1640814748547</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ER diagram">
+      <created>1640831484087</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1640831484088</updated>
+    </task>
+    <task id="LOCAL-00012" summary="UseCases">
+      <created>1640831494908</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1640831494908</updated>
+    </task>
+    <task id="LOCAL-00013" summary="EER model">
+      <created>1640831503786</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1640831503786</updated>
+    </task>
+    <task id="LOCAL-00014" summary="upload db">
+      <created>1640831511147</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1640831511147</updated>
+    </task>
+    <task id="LOCAL-00015" summary="bootstrap icons">
+      <created>1640831605157</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1640831605157</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fixed">
+      <created>1640831644496</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1640831644496</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,8 +217,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="make menu and worked linkers" />
-    <MESSAGE value="upload db" />
     <MESSAGE value="add some classes" />
     <MESSAGE value="add forms for SearchTag and RegistrationUser and LoginUser and ContactForm" />
     <MESSAGE value="something automatically by django" />
@@ -183,6 +227,12 @@
     <MESSAGE value="add functional of contactform, registeruser, logout, login" />
     <MESSAGE value="init" />
     <MESSAGE value="add model of comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="add model of comments" />
+    <MESSAGE value="ER diagram" />
+    <MESSAGE value="UseCases" />
+    <MESSAGE value="EER model" />
+    <MESSAGE value="upload db" />
+    <MESSAGE value="bootstrap icons" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
   </component>
 </project>
