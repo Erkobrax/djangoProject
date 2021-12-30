@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09212a64-7445-4e14-93f3-8e06fe858051" name="Changes" comment="fixed" />
+    <list default="true" id="09212a64-7445-4e14-93f3-8e06fe858051" name="Changes" comment="something automatically" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +85,7 @@
       <updated>1640634143661</updated>
       <workItem from="1640634145844" duration="1576000" />
       <workItem from="1640704494044" duration="1574000" />
-      <workItem from="1640811431611" duration="13961000" />
+      <workItem from="1640811431611" duration="14650000" />
     </task>
     <task id="LOCAL-00001" summary="make menu and worked linkers">
       <created>1640814493785</created>
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640831644496</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="something automatically">
+      <created>1640831752109</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1640831752109</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +240,7 @@
     <MESSAGE value="upload db" />
     <MESSAGE value="bootstrap icons" />
     <MESSAGE value="fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+    <MESSAGE value="something automatically" />
+    <option name="LAST_COMMIT_MESSAGE" value="something automatically" />
   </component>
 </project>
