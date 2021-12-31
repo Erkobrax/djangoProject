@@ -17,6 +17,3 @@ A special social networking site for IT workers, looking for potential workers, 
 | Facebook | ✔ | ✔ |  | ✔ | ✔ |✔ |✔ |
 | LinkedIn | ✔ | ✔ | ✔ | ✔ |✔  |✔ |✔ |
 
-## Summary
-The website is a social application website, in order to meet people's needs for finding dates or new friends and make posts.  
-In order to achieve this goal, my website needs to provide users with the function of making new posts, and at the same time, it needs to enable users find them, share posts, and obtain the contact information of friends.  

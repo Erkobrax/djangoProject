@@ -1,25 +1,19 @@
 # Project Theme
 
 ## Project Introduction
-Social application website based on clustering algorithm.
-The website calculates and pushes people who match with you
-based on the personal information, hobbies and other information
-filled in by the user during registration, helping users to meet
-new friends who have a good impression of each other.
+This is a social application that helps you make posts and share information.  
+Also, it automatically make hashtags, which help users to search post which they want
 
 ## High-Level Overview
 This project is a social application website.  
-Those who want to meet new like-minded friends and those who want
-to expand their social circle can use this website to make new friends.
-
+For those who want to share information with others.
 ## High-level Description
-The website allows users to register and log in, upload their
-personal information, and the website recommends users with similar
-interests and hobbies through the user’s personal information.
-The website allows administrator to add, delete and modify user information.
-
+The people who can interact with the interface are guests, registered users, and administrators.  
+Users and administrators can create posts in their own profile. Any authorized user can like the post or find it through the search and go to the user's page.  
+The user can watch the posts of other users.  
+The web application will work with a database that will store user authentication data, posts, likes, user hashtags.
 
 ## Example
-Maxim registered as a website user. He uploaded his age, gender and other information.
+Maxim registered as a website user. He uploaded his information if he wants.  
 He can write posts and makes hashtag for it.(Also i want to make likes)
 Finally, user can make posts, likes them and search them.

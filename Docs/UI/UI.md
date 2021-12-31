@@ -16,7 +16,7 @@ The field for entering keywords, if the desired post is not found, it will displ
 Separate page for searching words in posts
 - **Home page**   
 The home page of the site, from which you can use adding a post, viewing information about the site and sending feedback
-- **Login admin page**
+- **0ogin admin page**
 Login for admins
 - **Admin page**  
 Where admins can delete/make users/posts
