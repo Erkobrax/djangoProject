@@ -4,6 +4,7 @@
 Guest:
 * See the information about website
 * Register an account   
+* Can write feedback
 
 User:
 * Edit your own information
@@ -29,6 +30,7 @@ Administrator:
 | Searching Use Cases  | The main business of the website, sorting and searching posts by hashtags |
 | Like Dislike Use Cases  | Click to rate whether you like post |
 | Random user Use Cases  | For Administrator to create test users |
+| Feedback system | For all if they want to write feedback about website |
 
 ## BOM Portal Use Cases
 |        *Use Cases*       | Login  |
@@ -83,6 +85,16 @@ Administrator:
 | Preconditions     | Administrator logged in |
 | Basic Path        | Click the button to generate random users on admin page |
 | Postconditions    | Random user generation, provided to the administrator for testing |
+
+
+|        *Use Cases*       | Feedback |
+| :----------------:| :----: |
+| Brief Description | Write feedback |
+| Primary Actor     | All users | 
+| Preconditions     | You have opened the website |
+| Basic Path        | Click the button to fill form about your feedback |
+| Postconditions    | Returned to the home page |
+
 
 ## Use Cases Image
 ![Alt Image](UseCases.png)  
