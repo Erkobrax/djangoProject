@@ -49,14 +49,14 @@ Administrator:
 | Alternative Path  | If the user enters the wrong data, it will be prompted to correct the data  |
 | Postconditions    | If the registration is successful, it will jump to the login page, if the user name already exists, it will jump back to the registration page |
 
-|        *Use Cases*       | Management |
+|        *Use Cases*       | Making and deleting posts |
 | :----------------:| :----: |
-| Brief Description | Let users and administrators manage their accounts |
+| Brief Description | Let users and administrators make and delete posts |
 | Primary Actor     | User and administrator | 
 | Preconditions     | Already login |
-| Basic Path        | The user or administrator edits their personal information, make posts and searching them |
-| Alternative Path  | The administrator can enter the specified user name, set his role as administrator or user, and the administrator can delete the specified user |
-| Postconditions    | After setting success or failure, return to the management page |
+| Basic Path        | The user or administrator make posts or delete them |
+| Alternative Path  | - |
+| Postconditions    | After setting success or failure, stay on this page |
 
 |        *Use Cases*       | Searching |
 | :----------------:| :----: |
