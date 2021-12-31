@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09212a64-7445-4e14-93f3-8e06fe858051" name="Changes" comment="Edit UI">
+    <list default="true" id="09212a64-7445-4e14-93f3-8e06fe858051" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Analogues+ HLO/Analogs.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Analogues+ HLO/Analogs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Analogues+ HLO/High-LevelOverview.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Analogues+ HLO/High-LevelOverview.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/UI/UI.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/UI/UI.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +89,7 @@
       <workItem from="1640634145844" duration="1576000" />
       <workItem from="1640704494044" duration="1574000" />
       <workItem from="1640811431611" duration="16043000" />
-      <workItem from="1640938722245" duration="14631000" />
+      <workItem from="1640938722245" duration="17530000" />
     </task>
     <task id="LOCAL-00001" summary="make menu and worked linkers">
       <created>1640814493785</created>
@@ -324,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640966885273</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="update">
+      <created>1640969187551</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1640969187551</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +349,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="something automatically by django" />
     <MESSAGE value="add buttons" />
     <MESSAGE value="add path for user,search,hashtag,register,login,logout" />
     <MESSAGE value="add functional of contactform, registeruser, logout, login" />
@@ -369,6 +373,7 @@
     <MESSAGE value="change login page" />
     <MESSAGE value="Add UI" />
     <MESSAGE value="Edit UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit UI" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
