@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09212a64-7445-4e14-93f3-8e06fe858051" name="Changes" comment="something automatically by Django" />
+    <list default="true" id="09212a64-7445-4e14-93f3-8e06fe858051" name="Changes" comment="Update UseCases" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +86,7 @@
       <workItem from="1640634145844" duration="1576000" />
       <workItem from="1640704494044" duration="1574000" />
       <workItem from="1640811431611" duration="16043000" />
-      <workItem from="1640938722245" duration="3915000" />
+      <workItem from="1640938722245" duration="4583000" />
     </task>
     <task id="LOCAL-00001" summary="make menu and worked linkers">
       <created>1640814493785</created>
@@ -235,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640949961126</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="something automatically by Django">
+      <created>1640950863906</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1640950863906</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update UseCases">
+      <created>1640950880061</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1640950880061</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +288,7 @@
     <MESSAGE value="update ER_Diagram" />
     <MESSAGE value="update UseCases" />
     <MESSAGE value="something automatically by Django" />
-    <option name="LAST_COMMIT_MESSAGE" value="something automatically by Django" />
+    <MESSAGE value="Update UseCases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update UseCases" />
   </component>
 </project>
