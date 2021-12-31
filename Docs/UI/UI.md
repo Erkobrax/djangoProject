@@ -16,9 +16,20 @@ The field for entering keywords, if the desired post is not found, it will displ
 Separate page for searching words in posts
 - **Home page**   
 The home page of the site, from which you can use adding a post, viewing information about the site and sending feedback
+- **Login admin page**
+Login for admins
+- **Admin page**  
+Where admins can delete/make users/posts
 ## Interface sketches
-
-
-
+![Alt Image](img/login.png)
+![Alt Image](img/registration.png) 
+![Alt Image](img/searchinghashtag.png)  
+![Alt Image](img/home.png)
+![Alt Image](img/searchingword.png)
+![Alt Image](img/posts.png)
+![Alt Image](img/Pagefeedback.png)
+![Alt Image](img/about.png)
+![Alt Image](img/adminlogin.png)
+![img.png](img/admin.png)
 ## Interface diagram
 ![Alt Image](UI.png)  

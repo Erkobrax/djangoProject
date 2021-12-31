@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09212a64-7445-4e14-93f3-8e06fe858051" name="Changes" comment="edit menu">
-      <change afterPath="$PROJECT_DIR$/posts/static/img/file.ico" afterDir="false" />
+    <list default="true" id="09212a64-7445-4e14-93f3-8e06fe858051" name="Changes" comment="change login page">
+      <change afterPath="$PROJECT_DIR$/Docs/UI/img/Pagefeedback.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/UI/img/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/UI/img/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/UI/img/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/UI/img/posts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/UI/img/registration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/UI/img/searchinghashtag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/UI/img/searchingword.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/static/img/main.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/UI/UI.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/UI/UI.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +97,7 @@
       <workItem from="1640634145844" duration="1576000" />
       <workItem from="1640704494044" duration="1574000" />
       <workItem from="1640811431611" duration="16043000" />
-      <workItem from="1640938722245" duration="10698000" />
+      <workItem from="1640938722245" duration="11811000" />
     </task>
     <task id="LOCAL-00001" summary="make menu and worked linkers">
       <created>1640814493785</created>
@@ -290,7 +295,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640958551746</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add demo">
+      <created>1640960744579</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1640960744579</updated>
+    </task>
+    <task id="LOCAL-00030" summary="change login page">
+      <created>1640960764795</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1640960764795</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +329,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="make menu and worked linkers" />
     <MESSAGE value="add some classes" />
     <MESSAGE value="add forms for SearchTag and RegistrationUser and LoginUser and ContactForm" />
     <MESSAGE value="something automatically by django" />
@@ -334,6 +352,8 @@
     <MESSAGE value="add UI" />
     <MESSAGE value="automatically" />
     <MESSAGE value="edit menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit menu" />
+    <MESSAGE value="add demo" />
+    <MESSAGE value="change login page" />
+    <option name="LAST_COMMIT_MESSAGE" value="change login page" />
   </component>
 </project>
