@@ -22,14 +22,24 @@ Login for admins
 Where admins can delete/make users/posts
 ## Interface sketches
 ![Alt Image](img/login.png)
+-----------------------------------
 ![Alt Image](img/registration.png) 
+-----------------------------------
 ![Alt Image](img/searchinghashtag.png)  
+-----------------------------------
 ![Alt Image](img/home.png)
+-----------------------------------
 ![Alt Image](img/searchingword.png)
+-----------------------------------
 ![Alt Image](img/posts.png)
+-----------------------------------
 ![Alt Image](img/Pagefeedback.png)
+-----------------------------------
 ![Alt Image](img/about.png)
+-----------------------------------
 ![Alt Image](img/adminlogin.png)
+-----------------------------------
 ![img.png](img/admin.png)
+-----------------------------------
 ## Interface diagram
 ![Alt Image](UI.png)  
