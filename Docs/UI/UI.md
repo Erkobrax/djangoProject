@@ -20,6 +20,8 @@ The home page of the site, from which you can use adding a post, viewing informa
 Login for admins
 - **Admin page**  
 Where admins can delete/make users/posts
+- **Profile page**
+- Info about user
 ## Interface sketches
 ![Alt Image](img/login.png)
 -----------------------------------
@@ -41,5 +43,6 @@ Where admins can delete/make users/posts
 -----------------------------------
 ![img.png](img/admin.png)
 -----------------------------------
+![img.png](img/profile.png)
 ## Interface diagram
 ![Alt Image](UI.png)  
