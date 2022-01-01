@@ -5,8 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09212a64-7445-4e14-93f3-8e06fe858051" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/Docs/ExplanatoryNote/~WRL3899.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/migrations/0002_auto_20220101_1927.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/migrations/0003_auto_20220101_2026.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/templates/Info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_profile/migrations/0003_auto_20220101_1301.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_profile/migrations/0004_alter_user_password.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_profile/migrations/0005_alter_user_managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_profile/migrations/0006_rename_is_admin_user_is_staff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_profile/migrations/0007_auto_20220101_1845.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/ExplanatoryNote/Postex ПЗ.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/ExplanatoryNote/Postex ПЗ.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/UI/UI.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/UI/UI.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/UI/img/posts.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/UI/img/posts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/UI/img/searchinghashtag.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/UI/img/searchinghashtag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/migrations/0002_hashtag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/migrations/0003_comments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/templates/search_tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/search_tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_profile/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +46,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,10 +71,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Emprero-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,7 +84,51 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.authentication">
+    <configuration name="authentication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Asus\AppData\Local\Microsoft\WindowsApps\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_profile" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_profile/authentication.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_profile" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_profile/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="djangoProject" type="Python.DjangoServer" factoryName="Django server">
       <module name="djangoProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,6 +152,12 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.authentication" />
+        <item itemvalue="Python.models" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -89,7 +170,8 @@
       <workItem from="1640634145844" duration="1576000" />
       <workItem from="1640704494044" duration="1574000" />
       <workItem from="1640811431611" duration="16043000" />
-      <workItem from="1640938722245" duration="17530000" />
+      <workItem from="1640938722245" duration="17927000" />
+      <workItem from="1641026233173" duration="35760000" />
     </task>
     <task id="LOCAL-00001" summary="make menu and worked linkers">
       <created>1640814493785</created>
@@ -329,7 +411,42 @@
       <option name="project" value="LOCAL" />
       <updated>1640969187551</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="ПЗ">
+      <created>1640972319924</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1640972319924</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Update UI">
+      <created>1640972333103</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1640972333103</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Update">
+      <created>1640972611297</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1640972611297</updated>
+    </task>
+    <task id="LOCAL-00038" summary="delete">
+      <created>1641030799702</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1641030799702</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update">
+      <created>1641034822598</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1641034822598</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,10 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add buttons" />
-    <MESSAGE value="add path for user,search,hashtag,register,login,logout" />
-    <MESSAGE value="add functional of contactform, registeruser, logout, login" />
-    <MESSAGE value="init" />
     <MESSAGE value="add model of comments" />
     <MESSAGE value="ER diagram" />
     <MESSAGE value="UseCases" />
@@ -373,7 +486,15 @@
     <MESSAGE value="change login page" />
     <MESSAGE value="Add UI" />
     <MESSAGE value="Edit UI" />
+    <MESSAGE value="ПЗ" />
+    <MESSAGE value="Update UI" />
+    <MESSAGE value="Update" />
+    <MESSAGE value="delete" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/djangoProject$models.coverage" NAME="models Coverage Results" MODIFIED="1641033514544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_profile" />
+    <SUITE FILE_PATH="coverage/djangoProject$authentication.coverage" NAME="authentication Coverage Results" MODIFIED="1641033872999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_profile" />
   </component>
 </project>
