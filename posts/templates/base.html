@@ -31,7 +31,8 @@
 			<li><a href="/{{m.url_name}}/">{{m.title}}</a></li>
 {% endfor %}
 				{% if request.user.is_authenticated %}
-				<li class="last"> {{user.username}} | <a href="{% url 'logout' %}">Logout</a></li>
+                <li><a href="/user/{{ user.username }}">Add Post</a></li>
+				<li class="last"> <a href="/user/{{ user.username }}/info">{{ user.username }}</a> | <a href="{% url 'logout' %}">Logout</a></li>
 				{% else %}
 				<li class="last"><a href="{% url 'register' %}">Registration</a> | <a href="{% url 'login' %}">Login</a></li>
 				{% endif %}
