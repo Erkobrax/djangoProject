@@ -17,10 +17,12 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, re_path
 from django.contrib.auth import views as auth_views
-
+from django.conf.urls import include, url
 from djangoProject import settings
 from posts import views
 from posts.views import *
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', Index.as_view(), name='home'),
@@ -33,8 +35,8 @@ urlpatterns = [
     re_path(r'^register/$', RegisterUser.as_view(), name='register'),
     path('contact/', ContactFormView.as_view(), name='contact'),
     path('about/', about, name='about'),
-    path('logout/', logout_user, name='logout')
-
+    path('logout/', logout_user, name='logout'),
+    re_path(r'^user/(\w+)/info/', Info.as_view(), name='info')
 
 ]
 if settings.DEBUG:

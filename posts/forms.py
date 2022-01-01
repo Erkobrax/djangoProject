@@ -1,6 +1,7 @@
 from django import forms
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
-from django.contrib.auth.models import User
+# from django.contrib.auth.models import User
+from user_profile.models import User
 
 
 class PostForm(forms.Form):

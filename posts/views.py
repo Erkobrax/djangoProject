@@ -1,27 +1,40 @@
+import json
+
+from rest_framework.mixins import UpdateModelMixin
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.viewsets import ModelViewSet, GenericViewSet
+from rest_framework import viewsets
 from django.contrib.auth import login, logout
-from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth.views import LoginView
-from django.shortcuts import render, redirect
-from django.http import HttpResponseRedirect, HttpResponseNotFound
 from django.http import HttpResponse
+from django.http import HttpResponseRedirect, HttpResponseNotFound
+from django.shortcuts import render, redirect
+from django.template.loader import render_to_string
 # Create your views here.
 from django.urls import reverse_lazy
 from django.views import View
 from django.views.generic import CreateView, FormView
 
-from .models import Post, HashTag
-from user_profile.models import User
-from user_profile.models import User
 from posts.forms import PostForm, SearchForm, SearchTagForm, LoginUserForm, RegisterUserForm, ContactForm
-from django.template.loader import render_to_string
-import json
-
+from user_profile.models import User
+from .models import Post, HashTag
 from .utils import DataMixin
 
-menu = [{'title':"About website",'url_name':'about'},
-        {'title':"Add post", 'url_name':'profile '},
-        {'title':"FeedBack", 'url_name':'contact'}
-]
+menu = [{'title': "About website", 'url_name': 'about'},
+        {'title': "FeedBack", 'url_name': 'contact'}
+        ]
+
+
+class Info(View):
+
+    def get(self, request, username):
+        user = User.objects.get(username=username)
+        info = User.objects.all()
+        context = {
+            'user': user,
+            'info': info
+        }
+        return render(request, 'info.html', context)
 
 
 class Index(View):

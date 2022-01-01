@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
 from pathlib import Path
+#from user_profile.authentication import UserAuthBackend
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'posts',
     'user_profile',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -98,6 +100,12 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTH_USER_MODEL = 'user_profile.User'
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    #'user_profile.authentication.UserAuthBackend',
+    )
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
