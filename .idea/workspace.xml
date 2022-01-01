@@ -4,38 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09212a64-7445-4e14-93f3-8e06fe858051" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Docs/ExplanatoryNote/~WRL3899.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/migrations/0002_auto_20220101_1927.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/migrations/0003_auto_20220101_2026.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/templates/Info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_profile/migrations/0003_auto_20220101_1301.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_profile/migrations/0004_alter_user_password.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_profile/migrations/0005_alter_user_managers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_profile/migrations/0006_rename_is_admin_user_is_staff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_profile/migrations/0007_auto_20220101_1845.py" afterDir="false" />
+    <list default="true" id="09212a64-7445-4e14-93f3-8e06fe858051" name="Changes" comment="automatically by django">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/ExplanatoryNote/Postex ПЗ.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/ExplanatoryNote/Postex ПЗ.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/UI/UI.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/UI/UI.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/UI/img/posts.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/UI/img/posts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/UI/img/searchinghashtag.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/UI/img/searchinghashtag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/migrations/0002_hashtag.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/migrations/0003_comments.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templates/search_tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/search_tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_profile/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +143,7 @@
       <workItem from="1640704494044" duration="1574000" />
       <workItem from="1640811431611" duration="16043000" />
       <workItem from="1640938722245" duration="17927000" />
-      <workItem from="1641026233173" duration="35760000" />
+      <workItem from="1641026233173" duration="37549000" />
     </task>
     <task id="LOCAL-00001" summary="make menu and worked linkers">
       <created>1640814493785</created>
@@ -446,7 +418,70 @@
       <option name="project" value="LOCAL" />
       <updated>1641034822598</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="demo">
+      <created>1641074904995</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1641074904995</updated>
+    </task>
+    <task id="LOCAL-00041" summary="automatically migrations">
+      <created>1641074930450</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1641074930450</updated>
+    </task>
+    <task id="LOCAL-00042" summary="info page">
+      <created>1641074967866</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1641074967866</updated>
+    </task>
+    <task id="LOCAL-00043" summary="a bit edit">
+      <created>1641074987467</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1641074987467</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add functional to view profile of user">
+      <created>1641075026715</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1641075026715</updated>
+    </task>
+    <task id="LOCAL-00045" summary="update UI">
+      <created>1641075038254</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1641075038254</updated>
+    </task>
+    <task id="LOCAL-00046" summary="new png">
+      <created>1641075055617</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1641075055617</updated>
+    </task>
+    <task id="LOCAL-00047" summary="ПЗ">
+      <created>1641075070939</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1641075070939</updated>
+    </task>
+    <task id="LOCAL-00048" summary="automatically by django">
+      <created>1641075089717</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1641075089717</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,19 +501,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add model of comments" />
-    <MESSAGE value="ER diagram" />
-    <MESSAGE value="UseCases" />
-    <MESSAGE value="EER model" />
-    <MESSAGE value="upload db" />
-    <MESSAGE value="bootstrap icons" />
-    <MESSAGE value="fixed" />
     <MESSAGE value="something automatically" />
     <MESSAGE value="update ER_Diagram" />
     <MESSAGE value="update UseCases" />
     <MESSAGE value="something automatically by Django" />
     <MESSAGE value="Update UseCases" />
-    <MESSAGE value="automatically by django" />
     <MESSAGE value="add UI" />
     <MESSAGE value="automatically" />
     <MESSAGE value="edit menu" />
@@ -486,12 +513,20 @@
     <MESSAGE value="change login page" />
     <MESSAGE value="Add UI" />
     <MESSAGE value="Edit UI" />
-    <MESSAGE value="ПЗ" />
     <MESSAGE value="Update UI" />
     <MESSAGE value="Update" />
     <MESSAGE value="delete" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="demo" />
+    <MESSAGE value="automatically migrations" />
+    <MESSAGE value="info page" />
+    <MESSAGE value="a bit edit" />
+    <MESSAGE value="add functional to view profile of user" />
+    <MESSAGE value="update UI" />
+    <MESSAGE value="new png" />
+    <MESSAGE value="ПЗ" />
+    <MESSAGE value="automatically by django" />
+    <option name="LAST_COMMIT_MESSAGE" value="automatically by django" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/djangoProject$models.coverage" NAME="models Coverage Results" MODIFIED="1641033514544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_profile" />
