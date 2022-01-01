@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}
+    Профиль
+{% endblock %}
+
+{% block content %}
+
+<div>
+<h1> Профиль пользователя {{ user.username }} </h1>
+        <div class="profile-border-out">
+            <div class="profile-border-in">
+                <ul>
+                    <li> Name: {{ user.firstname }} </li><br>
+                    <li> LastName: {{ user.lastname }} </li><br>
+                    <li> Patronymic: {{ user.patronymic }} </li><br>
+                    <li> Email: {{ user.email }} </li><br>
+                    <li> Country: {{ user.country }} </li><br>
+                    <li> Registration: {{ user.registration }} </li><br>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+</div>
+
+
+{% endblock %}
