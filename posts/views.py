@@ -1,5 +1,6 @@
 import json
 
+from django.contrib.auth.decorators import login_required
 from rest_framework.mixins import UpdateModelMixin
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import ModelViewSet, GenericViewSet
@@ -15,7 +16,7 @@ from django.urls import reverse_lazy
 from django.views import View
 from django.views.generic import CreateView, FormView
 
-from posts.forms import PostForm, SearchForm, SearchTagForm, LoginUserForm, RegisterUserForm, ContactForm
+from posts.forms import PostForm, SearchForm, SearchTagForm, LoginUserForm, RegisterUserForm, ContactForm, ProfileForm
 from user_profile.models import User
 from .models import Post, HashTag
 from .utils import DataMixin
@@ -29,12 +30,15 @@ class Info(View):
 
     def get(self, request, username):
         user = User.objects.get(username=username)
-        info = User.objects.all()
-        context = {
-            'user': user,
-            'info': info
-        }
-        return render(request, 'info.html', context)
+        if request.user.is_authenticated:
+            info = User.objects.all()
+            context = {
+                'user': user,
+                'info': info
+            }
+            return render(request, 'info.html', context)
+        else:
+            return redirect('login')
 
 
 class Index(View):
