@@ -16,7 +16,11 @@
                     <li> Email: {{ user.email }} </li><br>
                     <li> Country: {{ user.country }} </li><br>
                     <li> Registration: {{ user.registration }} </li><br>
+                     {% if request.user.id != user.id %}
+                    <a href="/user/{{ user.username }}">List of posts</a>
+                    {% endif %}
                 </ul>
+
             </div>
         </div>
 

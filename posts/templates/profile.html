@@ -15,7 +15,7 @@
 <div class="row clearfix">
 
     <div class="col-md-12 column">
-
+        {% if request.user.id == user.id %}
         <form action="post/" method="post">
             {% csrf_token %}
             <div class="col-md-8 col-md-offset-2 fieldWrapper form-group">
@@ -24,6 +24,7 @@
             </div>
             <button type="submit" class="btn btn-primary"><i class=""></i>Post</button>
         </form>
+        {% endif %}
         <button onclick="window.location.href='http://127.0.0.1:8000/search/hashtag';" class="btn btn-primary">Searching</button>
 
     </div>
