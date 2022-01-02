@@ -38,6 +38,37 @@ class RegisterUserForm(UserCreationForm):
         fields = ('username', 'email', 'password1', 'password2', 'firstname', 'lastname', 'patronymic', 'country')
 
 
+class ProfileForm(forms.Form):
+    username = forms.CharField(label='Login', widget=forms.TextInput(attrs={'class': 'form-input'}))
+    email = forms.EmailField(label='Email', widget=forms.EmailInput(attrs={'class': 'form-input'}))
+    firstname = forms.CharField(label='Firstname', widget=forms.TextInput(attrs={'class': 'form-input'}))
+    lastname = forms.CharField(label='Lastname', widget=forms.TextInput(attrs={'class': 'form-input'}))
+    patronymic = forms.CharField(label='Patronymic', widget=forms.TextInput(attrs={'class': 'form-input'}))
+    country = forms.CharField(label='Country', widget=forms.TextInput(attrs={'class': 'form-input'}))
+
+    class Meta:
+        model = User
+        fields = ('username', 'email', 'firstname', 'lastname', 'patronymic', 'country')
+
+    def clean_email(self):
+        username = self.cleaned_data.get('username')
+        email = self.cleaned_data.get('email')
+
+        if email and User.objects.filter(email=email).exclude(username=username).count():
+            raise forms.ValidationError(
+                'This email address is already in use. Please supply a different email address.')
+        return email
+
+    def save(self, commit=True):
+        user = super(RegisterUserForm, self).save(commit=False)
+        user.email = self.cleaned_data['email']
+
+        if commit:
+            user.save()
+
+        return user
+
+
 class LoginUserForm(AuthenticationForm):
     username = forms.CharField(label='Login', widget=forms.TextInput(attrs={'class': 'form-input'}))
     password = forms.CharField(label='Password', widget=forms.PasswordInput(attrs={'class': 'form-input'}))
