@@ -1,6 +1,9 @@
 import json
 
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.core.checks import messages
+from rest_framework.generics import get_object_or_404
 from rest_framework.mixins import UpdateModelMixin
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import ModelViewSet, GenericViewSet
@@ -12,13 +15,13 @@ from django.http import HttpResponseRedirect, HttpResponseNotFound
 from django.shortcuts import render, redirect
 from django.template.loader import render_to_string
 # Create your views here.
-from django.urls import reverse_lazy
+from django.urls import reverse_lazy, reverse
 from django.views import View
 from django.views.generic import CreateView, FormView
 
 from posts.forms import PostForm, SearchForm, SearchTagForm, LoginUserForm, RegisterUserForm, ContactForm, ProfileForm
 from user_profile.models import User
-from .models import Post, HashTag
+from .models import Post, HashTag, DisLike
 from .utils import DataMixin
 
 menu = [{'title': "About website", 'url_name': 'about'},
@@ -70,13 +73,35 @@ class ContactFormView(DataMixin, FormView):
 
 class Profile(View):
     def get(self, request, username):
+        likeAuthor = request.GET.get('name')
+        id = request.GET.get('id')
+        print(likeAuthor ,id)
+        if likeAuthor and id:
+            post = Post.objects.get(id=id)
+            if not likeAuthor+',' in post.likesAuthors:
+                print(1)
+                authors = post.likesAuthors+likeAuthor+','
+                likes = int(post.likesCount)+1
+            else:
+                print(2)
+                authors = post.likesAuthors.replace(likeAuthor+',','')
+                likes = int(post.likesCount)-1
+            Post.objects.filter(id=id).update(likesAuthors=authors,likesCount=likes)
+                
+        likePosts = []
         user = User.objects.get(username=username)
         posts = Post.objects.filter(user=user)
+        for i in posts:
+            if request.user.username+',' in i.likesAuthors:
+                likePosts.append(i.id)
+            
+        # posts = Post.objects.all()
         form = PostForm()
         context = {
             'posts': posts,
             'user': user,
             'form': form,
+            'likePosts':likePosts,
         }
         return render(request, 'profile.html', context)
 
@@ -176,3 +201,46 @@ def pageNotFound(request, exception):
 def logout_user(request):
     logout(request)
     return redirect('login')
+
+
+class UpdatePostVote(LoginRequiredMixin, View):
+    login_url = '/login/'
+    redirect_field_name = 'next'
+
+    def get(self, request, *args, **kwargs):
+
+        post_id = self.kwargs.get('post_id', None)
+        opinion = self.kwargs.get('opinion', None)  # like or dislike button clicked
+
+        post = get_object_or_404(Post, id=post_id)
+
+        try:
+            # If child DisLike model doesnot exit then create
+            post.dis_likes
+        except Post.dis_likes.RelatedObjectDoesNotExist as identifier:
+            DisLike.objects.create(comment=post)
+
+        try:
+            # If child Like model doesnot exit then create
+            post.likes
+        except Post.likes.RelatedObjectDoesNotExist as identifier:
+            Like.objects.create(comment=post)
+
+        if opition.lower() == 'like':
+
+            if request.user in post.likes.users.all():
+                post.likes.users.remove(request.user)
+            else:
+                post.likes.users.add(request.user)
+                post.dis_likes.users.remove(request.user)
+
+        elif opition.lower() == 'dis_like':
+
+            if request.user in post.dis_likes.users.all():
+                post.dis_likes.users.remove(request.user)
+            else:
+                post.dis_likes.users.add(request.user)
+                post.likes.users.remove(request.user)
+        else:
+            return HttpResponseRedirect(reverse('profile'))
+        return HttpResponseRedirect(reverse('profile'))
