@@ -17,7 +17,7 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, re_path
 from django.contrib.auth import views as auth_views
-from django.conf.urls import include, url
+
 from djangoProject import settings
 from posts import views
 from posts.views import *
@@ -37,7 +37,6 @@ urlpatterns = [
     path('about/', about, name='about'),
     path('logout/', logout_user, name='logout'),
     re_path(r'^user/(\w+)/info/', Info.as_view(), name='info'),
-    #re_path(r'^user/(\w+)/info/profile_edit', views.edit, name='edit')
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
