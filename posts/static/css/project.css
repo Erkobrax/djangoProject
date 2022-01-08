@@ -394,3 +394,15 @@ ul.lang-list li a:hover {color: #fdc073;}
     min-width: 200px;
     font-size: 16px;
 }
+.like{
+	margin: 0;
+	cursor: pointer;
+
+}
+.card-body{
+	user-select: none;
+
+}
+.liked{
+	color: blue;
+}
