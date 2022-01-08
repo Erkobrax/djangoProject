@@ -87,14 +87,14 @@ class Profile(View):
                 authors = post.likesAuthors.replace(likeAuthor+',','')
                 likes = int(post.likesCount)-1
             Post.objects.filter(id=id).update(likesAuthors=authors,likesCount=likes)
-                
+
         likePosts = []
         user = User.objects.get(username=username)
         posts = Post.objects.filter(user=user)
         for i in posts:
             if request.user.username+',' in i.likesAuthors:
                 likePosts.append(i.id)
-            
+
         # posts = Post.objects.all()
         form = PostForm()
         context = {
@@ -150,7 +150,9 @@ class SearchTag(View):
         q = request.POST['q']
         form = SearchTagForm()
         tags = HashTag.objects.filter(name__icontains=q)
-        context = {'tags': tags, 'searchtag': form}
+
+
+        context = {'tags': tags, 'searchtag': form, }
         return render(request, 'search_tags.html', context)
 
 
