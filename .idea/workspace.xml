@@ -4,29 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="714e0a20-ea06-4ab5-aa71-c79f51ccd045" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/posts/migrations/0004_dislike_like.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/djangoProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+    <list default="true" id="714e0a20-ea06-4ab5-aa71-c79f51ccd045" name="Changes" comment="update xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/DataBase/ER_model_and_description_of_database.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/DataBase/ER_model_and_description_of_database.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/UI/img/posts.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/UI/img/posts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/UI/img/searchinghashtag.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/UI/img/searchinghashtag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/static/css/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/posts/static/css/project.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/static/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/posts/static/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/templates/search_tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/search_tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
     </list>
@@ -39,11 +28,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="23PY4rcxGOGYRVW395bdRdzphQo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -90,6 +83,8 @@
       <option name="presentableId" value="Default" />
       <updated>1641637000891</updated>
       <workItem from="1641637002738" duration="2090000" />
+      <workItem from="1641639135579" duration="1030000" />
+      <workItem from="1641640199171" duration="3462000" />
     </task>
     <task id="LOCAL-00001" summary="add new fields for Post model">
       <created>1641638556613</created>
@@ -98,7 +93,105 @@
       <option name="project" value="LOCAL" />
       <updated>1641638556613</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="migrations model">
+      <created>1641639388878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641639388878</updated>
+    </task>
+    <task id="LOCAL-00003" summary="nothing change">
+      <created>1641639412839</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641639412839</updated>
+    </task>
+    <task id="LOCAL-00004" summary="nothing change">
+      <created>1641639456910</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641639456910</updated>
+    </task>
+    <task id="LOCAL-00005" summary="migrate">
+      <created>1641639466148</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641639466148</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Change description of DB">
+      <created>1641639502496</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641639502496</updated>
+    </task>
+    <task id="LOCAL-00007" summary="nothing">
+      <created>1641639517960</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641639517960</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add css for likes">
+      <created>1641639531250</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641639531250</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add likes">
+      <created>1641639567756</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641639567756</updated>
+    </task>
+    <task id="LOCAL-00010" summary="delete model of comments">
+      <created>1641639581892</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641639581892</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add likes in Post model">
+      <created>1641639606297</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1641639606297</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add ajax script">
+      <created>1641639631951</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641639631951</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add like functional">
+      <created>1641639688102</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1641639688102</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update xml">
+      <created>1641639710847</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1641639710847</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update xml">
+      <created>1641639724136</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1641639724136</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,9 +207,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add new fields for Post model" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new fields for Post model" />
+    <MESSAGE value="migrations model" />
+    <MESSAGE value="nothing change" />
+    <MESSAGE value="migrate" />
+    <MESSAGE value="Change description of DB" />
+    <MESSAGE value="nothing" />
+    <MESSAGE value="add css for likes" />
+    <MESSAGE value="Add likes" />
+    <MESSAGE value="delete model of comments" />
+    <MESSAGE value="add likes in Post model" />
+    <MESSAGE value="Add ajax script" />
+    <MESSAGE value="add like functional" />
+    <MESSAGE value="update xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update xml" />
   </component>
 </project>
