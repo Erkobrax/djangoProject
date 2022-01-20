@@ -65,6 +65,14 @@
                     <a href="#"><span class="label label-info">{{ hashtag }}</span></a>
                     {% endfor %}
                     {% endif %}
+                {% if request.user.id == user.id %}
+                    <form action="{% url 'delete_post' post.id %}" method="post">
+                    <div>
+                     {% csrf_token %}
+                        <input type="submit" value="Delete post">
+                    </div>
+                    </form>
+                {% endif %}
                 </p>
             </div>
 
