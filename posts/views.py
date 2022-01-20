@@ -17,7 +17,7 @@ from django.template.loader import render_to_string
 # Create your views here.
 from django.urls import reverse_lazy, reverse
 from django.views import View
-from django.views.generic import CreateView, FormView
+from django.views.generic import CreateView, FormView, DeleteView
 
 from posts.forms import PostForm, SearchForm, SearchTagForm, LoginUserForm, RegisterUserForm, ContactForm, ProfileForm
 from user_profile.models import User
@@ -27,6 +27,17 @@ from .utils import DataMixin
 menu = [{'title': "About website", 'url_name': 'about'},
         {'title': "FeedBack", 'url_name': 'contact'}
         ]
+
+
+class DeletePost(DeleteView):
+    def post_delete(self,request, pk):
+        post = get_object_or_404(Post, pk=pk)
+
+        if request.method == 'POST':  # If method is POST,
+            post.delete()
+            return redirect('/')  # Finally, redirect to the homepage.
+
+        return render(request, 'template_name.html', {'post': post})
 
 
 class Info(View):
@@ -150,8 +161,6 @@ class SearchTag(View):
         q = request.POST['q']
         form = SearchTagForm()
         tags = HashTag.objects.filter(name__icontains=q)
-
-
         context = {'tags': tags, 'searchtag': form, }
         return render(request, 'search_tags.html', context)
 
